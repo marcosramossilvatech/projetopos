@@ -1,0 +1,83 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "marcos",
+      "email": "marcos@gmail.com",
+      "password": "972189"
+    }
+  ],
+  "colaborador": [
+    {
+      "id": 1,
+      "nome": "Marcos Ramos da Silva",
+      "email": "mrsilvatads@gmail.com",
+      "funcao": "Administrador",
+      "password": "123456",
+      "telefone": "31987752313",
+      "endereco": "Rua Tatiane S Coimbra, nº 120",
+      "bairro": "Neviana",
+      "cidade": "Ribeirão das Neves",
+      "uf": "Minas Gerais"
+    },
+    {
+      "nome": "Colaborador 2",
+      "funcao": "A",
+      "telefone": "31987752313",
+      "email": "mrsilva12@gmail.com",
+      "password": "972189",
+      "user_id": 1,
+      "username": "mrsilva12",
+      "id": 2
+    }
+  ],
+  "cliente": [
+    {
+      "nome": "Cliente 1 alterado",
+      "telefone": "31987752313",
+      "endereco": "Rua Tatiane S Coimbra, nº 120",
+      "bairro": "Neviana",
+      "cidade": "Ribeirão das Neves",
+      "uf": "Minas Gerais",
+      "id": 1
+    },
+    {
+      "nome": "Cliente 2",
+      "telefone": "318923124545",
+      "endereco": "Rua Tatiana Silva André",
+      "bairro": "Cidade Neviana",
+      "cidade": "Ribeirão das Neves",
+      "uf": "MG",
+      "id": 2
+    }
+  ],
+  "servico": [
+    {
+      "nome": "Instalação 2 ",
+      "descricao": "Instalação 2 ",
+      "ativo": "",
+      "id": 2
+    }
+  ],
+  "demanda": [
+    {
+      "id": 1,
+      "descricao": "Serviço realizado para instalar internet",
+      "idServico": 1,
+      "idCliente": 1,
+      "idColaborador": 1,
+      "dataCadastro": "2021-09-14",
+      "dataFinalizacao": "2021-09-14",
+      "Status": "F",
+      "observacaoStatus": "Finalizado com sucesso"
+    },
+    {
+      "descricao": "Serviço realizado para instalar internet",
+      "idServico": 2,
+      "idCliente": 1,
+      "idColaborador": 2,
+      "observacaoStatus": "Finalizado com sucesso",
+      "id": 2
+    }
+  ]
+}
